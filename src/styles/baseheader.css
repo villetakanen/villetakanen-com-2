@@ -10,10 +10,7 @@
   margin: 0;
   padding: calc(4 * var(--vt-grid));
   transition: background 0.3s;
-  background-color: light-dark(
-    var(--color-raspberry-3),
-    var(--color-rose-4)
-  );
+  background-color: light-dark(var(--color-cinnamon-3), var(--color-rose-4));
 }
 #page-header h2 a {
   color: light-dark(black, white);
@@ -23,7 +20,7 @@
   background: light-dark(var(--color-raspberry-6), var(--color-rose-5));
 }
 #page-header-content {
-  background: light-dark(var(--color-amber-3), var(--color-cerulean-4));
+  background: light-dark(var(--color-cerulean-3), var(--color-cerulean-4));
   flex-grow: 1;
   padding: calc(4 * var(--vt-grid));
 }

@@ -1,5 +1,6 @@
 ---
 import BaseHead from "@components/base/BaseHead.astro";
+import TopNav from "@components/base/TopNav.astro";
 ---
 <!doctype html>
 <html lang="en">
@@ -8,6 +9,7 @@ import BaseHead from "@components/base/BaseHead.astro";
   </head>
   <body>
 	<slot name="header" />
+  <TopNav />
 	<main>
 	  <slot />
     </main>
