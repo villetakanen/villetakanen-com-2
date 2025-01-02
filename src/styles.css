@@ -1,0 +1,8 @@
+@import "styles/reset.css";
+@import "styles/typography.css";
+@import "styles/base.css";
+
+:root {
+  --vt-grid: 0.5rem; /* 8px */
+  --vt-gap: 1rem; /* 16px */
+}

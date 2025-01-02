@@ -1,0 +1,26 @@
+@import "baseheader.css";
+
+body {
+  display: grid;
+  grid-template-columns: 1fr min(
+      var(--content-max-width),
+      calc(100dvh - (2 * var(--gap)))
+    ) 1fr;
+  grid-template-areas:
+    ". header-title header-title"
+    ". header-nav header-nav"
+    ". main-content ."
+    "filler footer-nav .";
+  grid-template-rows: auto auto 1fr auto;
+  min-height: 100vh;
+  align-items: start;
+
+  color-scheme: light dark;
+  background-color: light-dark(var(--color-raspberry-1), var(--color-cerulean-6));
+  color: light-dark(var(--color-cyan-6), var(--color-raspberry-1));
+
+  padding: var(--vt-gap);
+}
+main {
+  grid-area: main-content;
+}

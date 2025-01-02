@@ -1,0 +1,39 @@
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1; /* fix for Chrome */
+  font-size: calc(var(--vt-grid) / 8 * 17.5);
+  line-height: calc(var(--vt-grid) * 3); /* 24px */
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: Lato, Inter, sans-serif;
+  color: light-dark(var(--color-cyan-4), var(--color-raspberry-3));
+}
+h1,
+.heading1 {
+  font-size: calc(var(--vt-grid) / 8 * 119.94) /* 119.94px */;
+  font-weight: 400;
+}
+h2,
+.heading2 {
+  font-size: calc(var(--vt-grid) / 8 * 74.13) /* 74.13px */;
+  font-weight: 600;
+}
+h3,
+.heading3 {
+  font-size: calc(var(--vt-grid) / 8 * 45.81) /* 45.81px */;
+  font-weight: 900;
+}
+h4,
+.heading4,
+.subtitle {
+  font-size: calc(var(--vt-grid) / 8 * 28.32) /* 28.32px */;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+.subtitle {
+  font-weight: 200;
+}

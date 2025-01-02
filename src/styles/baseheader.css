@@ -1,0 +1,34 @@
+#page-header {
+  grid-area: header-title;
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  gap: var(--vt-gap);
+}
+#page-header h2 {
+  line-height: calc(10 * var(--vt-grid));
+  margin: 0;
+  padding: calc(4 * var(--vt-grid));
+  transition: background 0.3s;
+  background-color: light-dark(
+    var(--color-raspberry-3),
+    var(--color-rose-4)
+  );
+}
+#page-header h2 a {
+  color: light-dark(black, white);
+  text-decoration: none;
+}
+#page-header h2:hover {
+  background: light-dark(var(--color-raspberry-6), var(--color-rose-5));
+}
+#page-header-content {
+  background: light-dark(var(--color-amber-3), var(--color-cerulean-4));
+  flex-grow: 1;
+  padding: calc(4 * var(--vt-grid));
+}
+#page-header-content h3 {
+  margin: 0;
+  color: light-dark(black, white);
+  font-weight: 900;
+}

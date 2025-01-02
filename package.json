@@ -1,14 +1,19 @@
 {
-  "name": "villetakanen-com-2",
+  "name": "villetakanen-com",
   "type": "module",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "check": "biome check --write"
   },
   "dependencies": {
-    "astro": "^5.1.1"
+    "astro": "^5.1.1",
+    "reasonable-colors": "^0.4.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
   }
 }
