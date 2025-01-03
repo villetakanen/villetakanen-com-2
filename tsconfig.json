@@ -10,6 +10,6 @@
     },
     "lib": ["ES2021", "DOM"],
     "experimentalDecorators": true,
-    "useDefineForClassFields": false 
+    "useDefineForClassFields": false
   }
 }

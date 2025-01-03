@@ -1,5 +1,6 @@
 @import "baseheader.css";
 @import "top-nav.css";
+@import "footer-nav.css";
 
 body {
   display: grid;

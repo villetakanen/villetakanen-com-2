@@ -21,7 +21,7 @@ export class VtIcon extends LitElement {
       width: 100%;
       height: 100%;
     }
-  `
+  `;
 
   render() {
     return html`<svg width="128px" height="128px" viewBox="0 0 128 128">

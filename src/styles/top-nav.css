@@ -29,20 +29,18 @@
   color: light-dark(var(--color-cerulean-6), var(--color-cinnamon-1));
 }
 #top-nav li a:hover {
-  color: var(--color-cinnamon-2);
+  color: var(--color-cinnamon-3);
 }
-#top-nav li:has(svg) {
+#top-nav li:has(vt-icon) {
   padding: var(--vt-grid);
   border: none;
   background-color: light-dark(var(--color-rose-4), var(--color-cinnamon-1));
+  height: calc(7 * var(--vt-grid));
+  width: calc(7 * var(--vt-grid));
 }
-#top-nav li:has(svg) a {
+#top-nav li:has(vt-icon) a {
   color: light-dark(var(--color-cinnamon-1), var(--color-cerulean-6));
 }
-#top-nav li:has(svg) a:hover {
-  color: light-dark(var(--color-cinnamon-2), var(--color-cerulean-4));
-}
-#top-nav svg {
-  height: 100%;
-  width: auto;
+#top-nav li:has(vt-icon) a:hover {
+  color: light-dark(var(--color-cinnamon-2), var(--color-cinnamon-4));
 }

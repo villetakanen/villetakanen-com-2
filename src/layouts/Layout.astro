@@ -1,5 +1,6 @@
 ---
 import BaseHead from "@components/base/BaseHead.astro";
+import FooterNav from "@components/base/FooterNav.astro";
 import TopNav from "@components/base/TopNav.astro";
 ---
 <!doctype html>
@@ -12,6 +13,7 @@ import TopNav from "@components/base/TopNav.astro";
   <TopNav />
 	<main>
 	  <slot />
-    </main>
+  </main>
+  <FooterNav />
   </body>
 </html>
