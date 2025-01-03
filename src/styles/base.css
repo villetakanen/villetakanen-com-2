@@ -1,6 +1,7 @@
 @import "baseheader.css";
 @import "top-nav.css";
 @import "footer-nav.css";
+@import "footer.css";
 
 body {
   display: grid;
@@ -12,17 +13,19 @@ body {
     ". header-title header-title"
     ". top-nav top-nav"
     ". main-content ."
-    "filler footer-nav .";
+    "filler footer-nav ."
+    "footer-info footer-info .";
   grid-template-rows: auto auto 1fr auto;
   min-height: 100vh;
   align-items: start;
 
   color-scheme: light dark;
-  background-color: light-dark(var(--color-rose-1), var(--color-cerulean-6));
+  background-color: light-dark(var(--color-cinnamon-1), var(--color-cerulean-6));
   color: light-dark(var(--color-cerulean-6), var(--color-rose-1));
 
   padding: var(--vt-gap);
 }
 main {
   grid-area: main-content;
+  margin-bottom: calc(4 * var(--vt-gap));
 }

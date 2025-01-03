@@ -8,7 +8,7 @@
   color: light-dark(var(--color-cerulean-6), var(--color-cinnamon-1));
 }
 .page-navigation a:hover {
-  color: light-dark(var(--color-cinnamon-4), var(--color-cinnamon-3));
+  color: light-dark(var(--color-cerulean-5), var(--color-cinnamon-3));
 }
 .page-navigation li {
   font-family: Lato, Inter, sans-serif;
@@ -17,7 +17,7 @@
   transition: background 0.3s;
 }
 .page-navigation li:hover {
-  background-color: light-dark(var(--color-cinnamon-1), var(--color-cerulean-5));
+  background-color: light-dark(var(--color-cinnamon-2), var(--color-cerulean-5));
 }
 .page-navigation ul {
   margin: 0;
@@ -28,7 +28,6 @@
   display: flex;
   gap: 0;
   justify-content: flex-end;
-  padding-top: var(--vt-gap);
 }
 .page-navigation ul ul {
   margin-left: var(--vt-gap);
@@ -36,10 +35,26 @@
 .page-navigation > ul > li {
   padding: var(--vt-grid) var(--vt-gap);
   border-top: calc(var(--vt-grid) / 2) solid
-    light-dark(var(--color-rose-4), var(--color-cinnamon-1));
+    light-dark(var(--color-emerald-4), var(--color-cinnamon-1));
   display: flex;
 }
 .page-navigation > ul > li + li {
   border-left: calc(var(--vt-grid) / 2) solid
-    light-dark(var(--color-rose-4), var(--color-cinnamon-1));
+    light-dark(var(--color-emerald-4), var(--color-cinnamon-1));
+}
+
+#layout-filler {
+  grid-area: filler;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#layout-filler:before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: calc(100% - var(--vt-gap));
+  top: 0;
+  left: auto;
+  background-color: light-dark(var(--color-cinnamon-3), var(--color-cinnamon-5));
 }

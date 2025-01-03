@@ -12,29 +12,10 @@
   justify-content: flex-end;
   padding-top: var(--vt-gap);
 }
-#top-nav li {
-  font-family: Lato, Inter, sans-serif;
-  font-size: calc(var(--vt-grid) / 8 * 28.32);
-  line-height: calc(var(--vt-grid) / 8 * 28.32);
-  padding: var(--vt-grid) var(--vt-gap);
-  border-top: calc(var(--vt-grid) / 2) solid
-    light-dark(var(--color-rose-4), var(--color-cinnamon-1));
-}
-#top-nav li + li {
-  border-left: calc(var(--vt-grid) / 2) solid
-    light-dark(var(--color-rose-4), var(--color-cinnamon-1));
-}
-#top-nav li a {
-  text-decoration: none;
-  color: light-dark(var(--color-cerulean-6), var(--color-cinnamon-1));
-}
-#top-nav li a:hover {
-  color: var(--color-cinnamon-3);
-}
 #top-nav li:has(vt-icon) {
   padding: var(--vt-grid);
   border: none;
-  background-color: light-dark(var(--color-rose-4), var(--color-cinnamon-1));
+  background-color: light-dark(var(--color-emerald-4), var(--color-cinnamon-1));
   height: calc(7 * var(--vt-grid));
   width: calc(7 * var(--vt-grid));
 }
@@ -42,5 +23,5 @@
   color: light-dark(var(--color-cinnamon-1), var(--color-cerulean-6));
 }
 #top-nav li:has(vt-icon) a:hover {
-  color: light-dark(var(--color-cinnamon-2), var(--color-cinnamon-4));
+  color: light-dark(var(--color-emerald-2), var(--color-cinnamon-4));
 }

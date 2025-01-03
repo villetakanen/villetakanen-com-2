@@ -10,7 +10,7 @@
   margin: 0;
   padding: calc(4 * var(--vt-grid));
   transition: background 0.3s;
-  background-color: light-dark(var(--color-cinnamon-3), var(--color-rose-4));
+  background-color: light-dark(var(--color-rose-3), var(--color-rose-4));
 }
 #page-header h2 a {
   color: light-dark(black, white);
