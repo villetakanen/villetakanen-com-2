@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "astro": "^5.1.1",
+    "lit": "^3.2.1",
     "reasonable-colors": "^0.4.0"
   },
   "devDependencies": {

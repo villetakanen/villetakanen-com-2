@@ -17,10 +17,7 @@ body {
   align-items: start;
 
   color-scheme: light dark;
-  background-color: light-dark(
-    var(--color-rose-1),
-    var(--color-cerulean-6)
-  );
+  background-color: light-dark(var(--color-rose-1), var(--color-cerulean-6));
   color: light-dark(var(--color-cerulean-6), var(--color-rose-1));
 
   padding: var(--vt-gap);

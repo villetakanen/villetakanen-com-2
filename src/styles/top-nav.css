@@ -17,17 +17,16 @@
   font-size: calc(var(--vt-grid) / 8 * 28.32);
   line-height: calc(var(--vt-grid) / 8 * 28.32);
   padding: var(--vt-grid) var(--vt-gap);
-  border-top: calc(var(--vt-grid) / 2) solid light-dark(var(--color-rose-4), var(--color-cinnamon-1));
+  border-top: calc(var(--vt-grid) / 2) solid
+    light-dark(var(--color-rose-4), var(--color-cinnamon-1));
 }
 #top-nav li + li {
-  border-left: calc(var(--vt-grid) / 2) solid light-dark(var(--color-rose-4), var(--color-cinnamon-1));
+  border-left: calc(var(--vt-grid) / 2) solid
+    light-dark(var(--color-rose-4), var(--color-cinnamon-1));
 }
 #top-nav li a {
   text-decoration: none;
-  color: light-dark(
-    var(--color-cerulean-6),
-    var(--color-cinnamon-1)
-  );
+  color: light-dark(var(--color-cerulean-6), var(--color-cinnamon-1));
 }
 #top-nav li a:hover {
   color: var(--color-cinnamon-2);
@@ -35,22 +34,13 @@
 #top-nav li:has(svg) {
   padding: var(--vt-grid);
   border: none;
-  background-color: light-dark(
-    var(--color-rose-4),
-    var(--color-cinnamon-1)
-  );
+  background-color: light-dark(var(--color-rose-4), var(--color-cinnamon-1));
 }
 #top-nav li:has(svg) a {
-  color: light-dark(
-    var(--color-cinnamon-1),
-    var(--color-cerulean-6)
-  );
+  color: light-dark(var(--color-cinnamon-1), var(--color-cerulean-6));
 }
 #top-nav li:has(svg) a:hover {
-  color: light-dark(
-    var(--color-cinnamon-2),
-    var(--color-cerulean-4)
-  );
+  color: light-dark(var(--color-cinnamon-2), var(--color-cerulean-4));
 }
 #top-nav svg {
   height: 100%;
